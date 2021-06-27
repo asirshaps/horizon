@@ -1,0 +1,39 @@
+.navbar {
+    overflow: hidden;
+    background-color: #00004d;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#boxes {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* div {
+    float: left;
+    height: 470px;
+    width: 23%;
+    padding: 0 10px;
+  } */
+  #column1 {
+    background-color: #a1edcc;
+  }
+  #column2 {
+    background-color: #a0e9ed;
+    width: 43%;
+  }
+  #column3 {
+    background-color: #f497f1;
+  }
+  h2 {
+    color: #000000;
+    text-align: center;
+  }

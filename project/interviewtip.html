@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Tips</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            font-size: medium;
+            margin-left: 2em;
+            color: black;
+            
+        }
+        .collapsible {
+  background-color:#777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  /* margin-left: 2em; */
+  margin-right: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+    </style>
+    </head>
+    <body>
+        <!-- <div class="navbar">
+            <a href="#">Interview Tips</a>
+          </div>  -->
+
+           <!-- nav bars -->
+      <div class="navbar">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a> -->
+      
+      <!-- drop down -->
+       <div class="dropdown">
+        <button class="dropbtn">Programmes
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="software.html"> Software</a>
+          <a href="multimedia.html">Multimedia</a>
+          <a href="englishlearning.html">English Training</a>
+        </div>
+      </div> 
+    <div class="dropdown">
+        <button class="dropbtn">Students
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="alumni.html">Alumni</a>
+          <a href="queries.html">Ask our expert</a>
+          
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Gallery and downloads
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="photogallery.html">Photo Gallery</a>
+          
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Placement cell
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="jobfair.html">Job Fair</a>
+          <a href="interviewtip.html">Interview Tips</a>
+          
+        </div>
+      </div> 
+      <a href="affiliations.html">Affiliations And Award</a>
+      <a href="contact.html">Contact</a>
+    <div class="topnav-right">
+      <a href="#search">Search</a>
+      <a href="signin.html">Login</a>
+    </div>
+  </div> 
+          <p>
+            An interview is a conversation between two or more people where questions are asked by the interviewer to elicit facts or statements from the interviewee. It is used to analyse the candidates aspiring to join an organisation.
+          </p>
+          <p>
+            But on an important day like a job interview, many lose confidence. This in turn lets the appropriate opportunity slip out of hand, even if you deserve the job. Nervousness is natural, but the trick is to project self-confidence and prove that you're worth it.
+          </p>
+          <p>
+            Therefore, to help you face the interview with confidence, here's a list of tips:
+          </p>
+
+          <button class="collapsible">Be Yourself</button>
+<div class="content">
+  <p>Do not try to be someone you are not. The interviewer is an expert of his job and will immediately catch hold of any dishonest statement or action you portray. Do not pretend to be someone you are not.</p>
+</div>
+<button class="collapsible">Body Language</button>
+<div class="content">
+  <p>Most of the communication that we do during an interview is non-verbal. Sit straight. Do not shake your legs or tap your feet in nervousness. Do not fiddle with your hair or rub your hands. After all, the interviewer is also just another human being. He is sure to have some flaws too.</p>
+</div>
+<button class="collapsible">Know your CV , job and company</button>
+<div class="content">
+  <p>Have a firm grasp on your CV, the job you're applying for and the company. Be specific about your achievements and your growth so far. Set examples of events that set you apart from others. Think of a reason why the interviewer should hire you. Give them a reason to choose you. Also, know the company well. You are required to work for them; therefore they expect you to be well-informed of the organisation, its products, services and industry as a whole.</p>
+</div>
+<button class="collapsible">Eye Contact</button>
+<div class="content">
+  <p>One of the best to project confidence is to maintain an eye contact with the person who is interviewing you. Do not look here and there or up and down for it shows nervousness.</p>
+</div>
+<button class="collapsible">Dress code</button>
+<div class="content">
+  <p>Dress smartly and neatly. Do not wear a lot of jewellery. If ladies are wearing a saree, pin it properly. Do not walk in for the interview shabbily. Tuck your hair properly. Do not wear any uncomfortable dress. Wearing formals is always suitable for appearing in an interview.</p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+        
+</body>
+</html>

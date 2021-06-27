@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title> -->
+    <title>Alumni</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100);
+
+.slider-wrap {
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+}
+.slider {
+  overflow-x: scroll;
+}
+.holder {
+  width: 300%;
+}
+.slide {
+  float: left;
+  width: 400px;
+  height: 500px;
+  position: relative;
+  background-position: -100px 0;
+}
+.temp {
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  bottom: 15px;
+  left: 15px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+}
+#slide-0 {
+  background-image: url(https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/02/5-create-fake-people-in-2-seconds-on-this-insane-site.jpg);
+}
+#slide-1 {
+  background-image: url(https://i.pinimg.com/474x/51/68/d7/5168d7378e1bda0e9849c6563965d74e.jpg);
+}
+#slide-2 {
+  background-image: url(https://secure.i.telegraph.co.uk/multimedia/archive/03249/archetypal-male-fa_3249635c.jpg);
+}
+#slide-3 {
+  background-image: url(https://thankyou.care/wp-content/uploads/2020/10/100k-ai-faces-6.jpg);
+}
+#slide-4 {
+  background-image: url(https://thehimalayantimes.com/wp-content/uploads/2020/06/JIN_Instagram.jpg);
+}
+#slide-5 {
+  background-image: url(https://i.pinimg.com/originals/b7/4e/15/b74e15444773cb0a3bfa9d841cd613ad.jpg);
+}
+.slide:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(transparent, black);
+}
+.slider-nav {
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+.slider-nav a {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: #ddd;
+  overflow: hidden;
+  text-indent: -9999px;
+  border-radius: 50%;
+}
+.slider-nav a.active {
+  background: #999;
+}
+/* .navbar {
+    overflow: hidden;
+    background-color: #00004d;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } */
+  .content{
+      margin-left: 2em;
+      font-size: medium;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+</style>
+</head>
+<body>
+    <!-- <div class="navbar">
+        <a href="#">Alumni</a>
+      </div>  -->
+
+       <!-- nav bars -->
+      <div class="navbar">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+       
+      <!-- drop down -->
+       <div class="dropdown">
+        <button class="dropbtn">Programmes
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="software.html"> Software</a>
+          <a href="multimedia.html">Multimedia</a>
+          <a href="englishlearning.html">English Training</a>
+        </div>
+      </div> 
+    <div class="dropdown">
+        <button class="dropbtn">Students
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="alumni.html">Alumni</a>
+          <a href="queries.html">Ask our expert</a>
+          <!-- <a href="#">B.E Computer Science and Engineering</a> -->
+         </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Gallery and downloads
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="photogallery.html">Photo Gallery</a>
+          
+        </div>
+      </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Placement cell
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="jobfair.html">Job Fair</a>
+          <a href="interviewtip.html">Interview Tips</a>
+          
+        </div>
+      </div> 
+      <a href="affiliations.html">Affiliations And Award</a>
+      <a href="contact.html">Contact</a>
+    <div class="topnav-right">
+      <a href="#search">Search</a>
+      <a href="signin.html">Login</a>
+    </div>
+  </div> 
+    <div class="content">
+        Horizons Instutute has trained over 1.5 million alumni in a decade and an average of 1,50,000 students are trained and certified through our centres every annum. We have contributed to all major industries and helped the industry to find skilled manpower who could give first day first hour productivity.
+    </div>  
+    <div class="slider-wrap">
+        <div class="slider" id="slider">
+          <div class="holder">
+            <div class="slide" id="slide-0"><span class="temp"></span></div>
+            <div class="slide" id="slide-1"><span class="temp"></span></div>
+              <div class="slide" id="slide-2"><span class="temp"></span></div>
+              <div class="slide" id="slide-3"><span class="temp"></span></div>
+              <div class="slide" id="slide-4"><span class="temp"></span></div>
+              <div class="slide" id="slide-5"><span class="temp"></span></div>
+          </div>
+        </div>
+        <nav class="slider-nav">
+          <a href="#slide-0" class="active">Slide 0</a> 
+          <a href="#slide-1">Slide 1</a> 
+          <a href="#slide-2">Slide 2</a> 
+          <a href="#slide-3">Slide 2</a> 
+          <a href="#slide-4">Slide 2</a> 
+          <a href="#slide-5">Slide 2</a> 
+          
+        </nav>
+      </div>
+      <script src="alumni.js"></script>
+
+</body>
+</html>

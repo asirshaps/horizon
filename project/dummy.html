@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliation and awards</title>
+    </head>
+    <style>
+        .containerslidetop {
+  position: relative;
+}
+
+.imageslidetop {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayslidetop {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 500px;
+  height:0;
+  transition: .5s ease;
+}
+
+.containerslidetop:hover .overlayslidetop {
+  bottom: 0;
+  height: 100%;
+}
+
+.textslidetop {
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+.containerslidebottom {
+  position: relative;
+}
+
+.imageslidebottom  {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayslidebottom  {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 500px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containerslidebottom:hover .overlayslidebottom {
+  height: 100%;
+}
+
+.textslidebottom {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space:nowrap;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #00004d;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:	 #0000b3;
+  }
+  body {
+  margin: 0%;
+  background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Affiliations,Awards-Recognitions</a>
+      </div> 
+    <div class="containerslidetop">
+        <img src="./images/affiliations.jpg" alt="Avatar" width="500" height="500" class="imageslidetop">
+          <div class="overlayslidetop">
+            <div class="textslidebottom">Hello World</div>
+      </div>
+    <div class="containerslidebottom">
+        <img src="./images/iStock-646863134.jpg" alt="Avatar"  width="500" height="500" class="imageslidebottom">
+          <div class="overlayslidebottom">
+            <div class="textslidebottom">Hello World</div>
+        </div>
+    </div>      
+</body>
+</html>

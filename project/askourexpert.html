@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Ask</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+</head>
+<body background="./images/images.jpg">
+   
+    <!-- <div class="navbar">
+        <a href="#">Post your question</a>
+    </div>  -->
+     <!-- nav bars -->
+      <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a> 
+        
+        <!-- drop down -->
+        <div class="dropdown">
+          <button class="dropbtn">Programmes
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="software.html"> Software</a>
+            <a href="multimedia.html">Multimedia</a>
+            <a href="englishlearning.html">English Training</a>
+          </div>
+        </div> 
+      <div class="dropdown">
+          <button class="dropbtn">Students
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="alumni.html">Alumni</a>
+            <a href="askourexpert.html">Ask our expert</a>
+           
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Gallery and downloads
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="photogallery.html">Photo Gallery</a>
+            
+          </div>
+        </div> 
+        <div class="dropdown">
+          <button class="dropbtn">Placement cell
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="jobfair.html">Job Fair</a>
+            <a href="interviewtip.html">Interview Tips</a>
+            
+          </div>
+        </div> 
+        <a href="affiliations.html">Affiliations And Award</a>
+        <a href="contact.html">Contact</a>
+      <div class="topnav-right">
+        <a href="#search">Search</a>
+        <a href="signin.html">Login</a>
+      </div>
+    </div> 
+
+     
+    <form action="#" class="askourexpert" onsubmit= "return !!(phoneNumber() & validate() & questionany());">
+        
+        
+        <div class="signup-cont">
+            <label>Name</label><br>
+            <input type="text" placeholder="Name"><br>
+
+            <label>Qualification</label><br>
+            <input type="text" placeholder="Qualification"><br>
+
+            <label>Email id</label><br>
+            <input type="text" placeholder="Email id" id="email"><br>
+            <label for="error" id="error"></label><br>
+
+            <label>Contact No</label><br>
+            <input type="text" placeholder="contact-no"  id="phonenumber"><br>
+            <label for="error" id="errorphonenumber"></label><br> 
+
+            <label>Question</label><br>
+            <input type="text" placeholder="Question" id="question"><br>
+            <label for="error" id="errorquestion"></label><br>
+            
+        </div>
+        <div>
+            <button id="submit-button">SUBMIT</button><br>
+        </div>
+              
+    
+    </form>
+    <script src="askourexpert.js"></script>
+</body>
+</html>

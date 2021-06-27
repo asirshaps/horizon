@@ -1,0 +1,42 @@
+form{
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 30px;
+    /* border: 2px solid black; */
+    width: fit-content;
+    font-size: medium;
+    font-weight: bolder;
+    color: rgb(0, 0, 128);
+    background-color:#F0F8FF;
+}
+/* styling submit button */
+  .askourexpert #submit-button{
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    align-content: center;
+    border:  solid dodgerblue;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #00004d;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:	 #0000b3;
+  }
+  body {
+    margin: 0%;
+    background-size: cover;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
